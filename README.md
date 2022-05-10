@@ -6,7 +6,6 @@
 
 * You have been handed raw data, so you will first need to process it to fit the machine learning models. Since there is no known classification system, you will need to use unsupervised learning. You will use several clustering algorithms to explore whether the cryptocurrencies can be grouped together with other similar cryptocurrencies. You will use data visualization to share your findings with the investment bank.
 
-## Instructions
 
 ### Data Preparation
 
@@ -30,9 +29,15 @@
 
 * Next, further reduce the dataset dimensions with t-SNE and visually inspect the results. In order to accomplish this task, run t-SNE on the principal components: the output of the PCA transformation. Then create a scatter plot of the t-SNE output. Observe whether there are distinct clusters or not.
 
+  ![app](images/tsne.JPG)
+
 ### Cluster Analysis with k-Means
 
 * Create an elbow plot to identify the best number of clusters. Use a for-loop to determine the inertia for each `k` between 1 through 10. Determine, if possible, where the elbow of the plot is, and at which value of `k` it appears.
+
+ ![app](images/k_means.JPG)
+
+ ![app](images/clustering_4.JPG)
 
 ### Recommendation
 
